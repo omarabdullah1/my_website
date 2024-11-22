@@ -37,6 +37,10 @@ jobs:
           dart pub global activate jaspr_cli
           jaspr build --verbose
 
+      - name: Modify index.html
+        run: |
+          sed -i '4d' build/jaspr/index.html
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
