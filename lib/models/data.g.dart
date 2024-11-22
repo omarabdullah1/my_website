@@ -25,10 +25,10 @@ _$DataImpl _$$DataImplFromJson(Map<String, dynamic> json) => _$DataImpl(
 
 Map<String, dynamic> _$$DataImplToJson(_$DataImpl instance) =>
     <String, dynamic>{
-      'basic': instance.basic,
-      'socials': instance.socials,
-      'about': instance.about,
-      'services': instance.services,
-      'projects': instance.projects,
-      'contact': instance.contact,
+      'basic': instance.basic.toJson(),
+      'socials': instance.socials.map((e) => e.toJson()).toList(),
+      'about': instance.about.toJson(),
+      'services': instance.services.map((e) => e.toJson()).toList(),
+      'projects': instance.projects.map((e) => e.toJson()).toList(),
+      'contact': instance.contact.map((e) => e.toJson()).toList(),
     };

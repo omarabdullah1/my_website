@@ -2,19 +2,19 @@
 // Generated with jaspr_builder
 
 import 'package:jaspr/jaspr.dart';
-import 'package:devfolio/components/app_button.dart' as prefix0;
-import 'package:devfolio/components/contact.dart' as prefix1;
-import 'package:devfolio/components/footer.dart' as prefix2;
-import 'package:devfolio/components/nav_bar.dart' as prefix3;
-import 'package:devfolio/components/project_card.dart' as prefix4;
-import 'package:devfolio/components/service_card.dart' as prefix5;
-import 'package:devfolio/pages/home.dart' as prefix6;
-import 'package:devfolio/sections/about_me.dart' as prefix7;
-import 'package:devfolio/sections/basic_info.dart' as prefix8;
-import 'package:devfolio/sections/contact.dart' as prefix9;
-import 'package:devfolio/sections/projects.dart' as prefix10;
-import 'package:devfolio/sections/services.dart' as prefix11;
-import 'package:devfolio/app.dart' as prefix12;
+import 'package:my_website/components/app_button.dart' as prefix0;
+import 'package:my_website/components/contact.dart' as prefix1;
+import 'package:my_website/components/footer.dart' as prefix2;
+import 'package:my_website/components/nav_bar.dart' as prefix3;
+import 'package:my_website/components/project_card.dart' as prefix4;
+import 'package:my_website/components/service_card.dart' as prefix5;
+import 'package:my_website/pages/home.dart' as prefix6;
+import 'package:my_website/sections/about_me.dart' as prefix7;
+import 'package:my_website/sections/basic_info.dart' as prefix8;
+import 'package:my_website/sections/contact.dart' as prefix9;
+import 'package:my_website/sections/projects.dart' as prefix10;
+import 'package:my_website/sections/services.dart' as prefix11;
+import 'package:my_website/app.dart' as prefix12;
 
 /// Default [JasprOptions] for use with your jaspr project.
 ///
