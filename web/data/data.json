@@ -40,9 +40,11 @@
             "nodejs",
             "Python",
             "Cpp",
+            "C#",
             "Firebase",
             "dart_frog",
-            "jaspr"
+            "jaspr",
+            "IoT"
         ]
     },
     "services": [
@@ -65,39 +67,46 @@
     ],
     "projects": [
         {
-            "banner": "images/projects/snackbar.png",
+            "banner": "images/projects/1.png",
+            "icon": "images/projects/dragat_icon.png",
+            "title": "Dragat",
+            "description": "Comprehensive Educational Courses: Offering detailed courses that explain educational curricula in a simplified and engaging way. Interactive Interface: Enables interaction between students, teachers, and parents to enhance the learning experience.",
+            "link": "https://github.com/omarabdullah1/dragat"
+        },
+        {
+            "banner": "images/projects/2.png",
+            "icon": "images/projects/elmanassa_logo.png",
+            "title": "ElManassa",
+            "description": "ElManassa is an educational app that links students, teachers, and parents. Teachers create and share courses with videos and quizzes, while students can easily browse and subscribe to courses based on their grade. Parents can track their child's progress via a unique QR code, promoting better communication and collaboration.",
+            "link": "https://github.com/omarabdullah1/Elmanasa"
+        },
+        {
+            "banner": "images/projects/4.png",
+            "icon": "images/projects/egyoutfit.png",
+            "title": "Egyoutfit",
+            "description": "EgyOutfit is a multi-vendor e-commerce app for Android and iOS, enabling clothing stores to manage products and connect with buyers. The integrated admin panel ensures efficient platform control.",
+            "link": "https://github.com/omarabdullah1/egyoutfit"
+        },
+        {
+            "banner": "images/projects/5.png",
+            "icon": "images/projects/qms_icon.png",
+            "title": "QMS (Quarantine Management System)",
+            "description": "This home quarantine app uses Wi-Fi, Bluetooth, and AI algorithms to track quarantine compliance. It monitors whether users are inside or outside the quarantine area via a connected bracelet and determines quarantine dates. The app was developed as part of a research paper at Helwan University's Faculty of Engineering.",
+            "link": "https://github.com/omarabdullah1/QMS"
+        },
+        {
+            "banner": "images/projects/6.png",
             "icon": "images/projects/flutter.png",
-            "title": "Awesome Snackbar",
-            "description": "A very unique dart package to uplift the snackbar experience in flutter. Available at pub.dev now!",
-            "link": "https://pub.dev/packages/awesome_snackbar"
+            "title": "Artistic Wallpaper",
+            "description": "'Artistic Wallpaper' is a visually stunning app that offers a diverse collection of high-quality wallpapers in various categories. It allows users to discover, preview, and personalize their phones with captivating backgrounds, blending functionality and aesthetics for an enhanced mobile experience.",
+            "link": "https://github.com/omarabdullah1/ArtisitcWallpaper"
         },
         {
-            "banner": "images/projects/quranB.png",
-            "icon": "images/projects/quran.png",
-            "title": "Quran App",
-            "description": "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md",
-            "link": "https://github.com/mhmzdev/the-holy-quran-app"
-        },
-        {
-            "banner": "images/projects/medkitB.png",
-            "icon": "images/projects/medkit.png",
-            "title": "MedKit",
-            "description": "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.",
-            "link": "https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter"
-        },
-        {
-            "banner": "images/projects/hereiamB.png",
-            "icon": "images/projects/hereiam.png",
-            "title": "Here I Am",
-            "description": "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.",
-            "link": "https://github.com/mhmzdev/Here-I-Am-Alert-App"
-        },
-        {
-            "banner": "images/projects/covidB.png",
-            "icon": "images/projects/covid.png",
-            "title": "Covid-19 Tracker",
-            "description": "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.",
-            "link": "https://github.com/mhmzdev/Covid19-Tracker-App"
+            "banner": "images/projects/8.jpg",
+            "icon": "images/projects/robot_arm_icon.png",
+            "title": "Robot Arm Control system",
+            "description": "An arduino control system for robot arm and a c# visual studio app to control it and you can save motions and remake it again with this system",
+            "link": "https://github.com/omarabdullah1/Robot-Arm-Control-System"
         }
     ],
     "contact": [
